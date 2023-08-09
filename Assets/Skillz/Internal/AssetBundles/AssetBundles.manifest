@@ -1,0 +1,11 @@
+ManifestFileVersion: 0
+CRC: 1080981778
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: skillz-scenes
+      Dependencies:
+        Dependency_0: skillz-assets
+    Info_1:
+      Name: skillz-assets
+      Dependencies: {}

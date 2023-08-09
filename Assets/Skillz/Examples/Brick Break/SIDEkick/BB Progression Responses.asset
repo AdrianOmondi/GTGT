@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2fdff923c73d44e68c082e67aba63a7, type: 3}
+  m_Name: BB Progression Responses
+  m_EditorClassIdentifier: 
+  defaultPlayerData:
+  - key: games_played
+    value: 18
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: cash_games_played
+    value: 0
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: games_won
+    value: 9
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: cash_games_won
+    value: 0
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: best_score_lifetime
+    value: 9400
+    dataType: 2
+    LastUpdatedTime: 1970-01-01
+  - key: average_score
+    value: 6732.89
+    dataType: 2
+    LastUpdatedTime: 1970-01-01
+  - key: player_level
+    value: 1
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: skillz_level
+    value: 1
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: install_date
+    value: 1970-01-01
+    dataType: 3
+    LastUpdatedTime: 1970-01-01
+  playerData:
+  - key: bricks_broken
+    value: 800
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: bricks_cleared
+    value: 1
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: only_bronze_remaining
+    value: 1
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: 15_time_remaining
+    value: 0
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  - key: no_ball_lost
+    value: 2
+    dataType: 1
+    LastUpdatedTime: 1970-01-01
+  inGameItems: []

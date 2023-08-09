@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3896cd3aca92b4be08682676ddb795b3, type: 3}
+  m_Name: Default Match Types
+  m_EditorClassIdentifier: 
+  templates:
+  - name: Default Z Prize Match
+    matchDescription: Default game with Z as prize.
+    id: 0
+    templateId: 0
+    skillzDifficulty: 0
+    isCash: 0
+    entryPoints: 1
+    entryCash: 0
+    isSynchronous: 0
+    isTieBreaker: 0
+    isBracket: 0
+    bracketRound: 0
+    isVideoAdEntry: 0
+    connectionInfo:
+      matchId: 
+      serverIP: 
+      serverPort: 
+      matchToken: 
+      isBotMatch: 
+    players:
+    - displayName: JohnDoe12
+      id: 1234567
+      tournamentPlayerId: 123456789
+      avatarURL: https://cdn.sandbox.skillz.com/default-profile-pics/Guy1_001.png
+      flagURL: https://cdn.sandbox.skillz.com/flags/US.png
+      isCurrentPlayer: 1
+    gameParameters:
+    - key: type
+      value: default
+    - key: time
+      value: 180
+  - name: Default Cash Prize Match
+    matchDescription: Default game with Cash as prize.
+    id: 0
+    templateId: 0
+    skillzDifficulty: 0
+    isCash: 1
+    entryPoints: 0
+    entryCash: 1
+    isSynchronous: 0
+    isTieBreaker: 0
+    isBracket: 0
+    bracketRound: 0
+    isVideoAdEntry: 0
+    connectionInfo:
+      matchId: 
+      serverIP: 
+      serverPort: 
+      matchToken: 
+      isBotMatch: 
+    players: []
+    gameParameters: []
+  - name: Bracketed Cash Tournament Round 1
+    matchDescription: Default game with Cash as prize.
+    id: 0
+    templateId: 0
+    skillzDifficulty: 0
+    isCash: 1
+    entryPoints: 0
+    entryCash: 1
+    isSynchronous: 0
+    isTieBreaker: 0
+    isBracket: 1
+    bracketRound: 1
+    isVideoAdEntry: 0
+    connectionInfo:
+      matchId: 
+      serverIP: 
+      serverPort: 
+      matchToken: 
+      isBotMatch: 
+    players:
+    - displayName: 'JohnDoe123 '
+      id: 123456
+      tournamentPlayerId: 12345678
+      avatarURL: 
+      flagURL: 
+      isCurrentPlayer: 1
+    gameParameters:
+    - key: type
+      value: default
+    - key: time
+      value: 180
